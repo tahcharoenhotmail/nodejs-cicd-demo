@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Use Node.js 20
-        uses: actions/setup-node@v20
+        uses: actions/node-versions
         with:
           node-version: 20
 
